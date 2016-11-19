@@ -11,22 +11,22 @@ echo array_count_values($array1);
 echo array_diff($array1, $array_keys);
 //5
 $fill_this_array = array_fill(0, 5, 'value');
-echo $fill_this_array
+echo $fill_this_array;
 //6
 $fill_this_array2 = array_fill_keys($array_keys, 'value');
-echo $fill_this_array2
+echo $fill_this_array2;
 //7
 $fill_this_array3 = array_flip($fill_this_array2);
-echo $fill_this_array3
+echo $fill_this_array3;
 //8
 echo array_key_exists('a', $array1);
 //9
 echo array_keys($fill_this_array2);
 //10
 $array3 = array_merge($array1, $array2);
-echo $array3
+echo $array3;
 //11
-array4 = array('zero', 'one', 'two', 'three');
+$array4 = array('zero', 'one', 'two', 'three');
 echo array_pad($array4, 8, 'padding');
 //12
 echo array_pop($array4);
